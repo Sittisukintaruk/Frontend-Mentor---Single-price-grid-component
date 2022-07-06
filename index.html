@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-bg-main font-sans">
+    <div
+      class="fixed overflow-hidden left-2/4 top-2/4 rounded-lg bg-white -translate-y-2/4 -translate-x-2/4 w-[calc(100%-1rem)] lg:w-[724px]"
+    >
+      <div class="pb-4 pt-4 px-6 lg:px-10 lg:py-10">
+        <h3 class="text-primary-Cyan font-bold text-xl lg:text-2xl">
+          Join our community
+        </h3>
+        <h4 class="mt-4 text-prinary-Bright-Yellow font-bold text-lg">
+          30-day, hassle-free money back guarantee
+        </h4>
+        <p class="mt-4 text-base leading-7 text-gray lg:pr-28">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div
+          class="bg-primary-Cyan pb-6 pt-4 px-6 lg:px-10 lg:py-10 text-white lg:flex lg:flex-col lg:justify-between"
+        >
+          <h3 class="font-bold text-xl lg:text-2xl">Monthly Subscription</h3>
+          <div>
+            <div class="flex items-center mt-4 lg:mt-0">
+              <span class="text-3xl font-bold">&dollar;29</span
+              ><span class="ml-4 text-secondary-cyan">per month</span>
+            </div>
+            <span class="text-base mt-2">
+              Full access for less than &dollar;1 a day</span
+            >
+          </div>
+          <div class="flex flex-col">
+            <button
+              class="mt-8 shadow-lg bg-prinary-Bright-Yellow py-4 rounded-md"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+        <div
+          class="pb-10 pt-10 px-5 lg:px-10 bg-prinary-Bright-blue text-white lg:flex lg:flex-col lg:justify-between"
+        >
+          <h3 class="font-bold text-xl lg:text-2xl">Why Us</h3>
+          <p class="text-base leading-7 mt-4">
+            Tutorials by industry experts <br />
+            Peer &amp; expert code review <br />
+            Coding exercises <br />
+            Access to our GitHub <br />
+            repos Community forum <br />
+            Flashcard decks <br />
+            New videos every week
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
